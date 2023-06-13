@@ -6,9 +6,9 @@ function arrAdd() {
     let arr = [];
     let amount = +prompt("Введите количество елементов");
     for(let i = 0; i < amount; i++) {
-        arr.push([]);
-        let elem = prompt("Введите элемент" + (i + 1));
-        arr[i].push([elem]);
+        // arr.push([]);
+        arr[i] = prompt("Введите элемент" + (i + 1));
+        // arr[i].push([elem]);
     }
     alert(arr);
     console.log(arr)
