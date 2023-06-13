@@ -1,28 +1,21 @@
 /*
 Створити масив, довжину та елементи якого задає користувач. Потім відсортувати масив за зростанням. Потім видалити елементи з масиву з 2 по 4 (включно). У міру змін виводити вміст масиву на сторінку.*/
 
-
+let arr = [];
 function arrAdd() {
-    let arr = [];
+
     let amount = +prompt("Введите количество елементов");
     for(let i = 0; i < amount; i++) {
-        // arr.push([]);
         arr[i] = prompt("Введите элемент" + (i + 1));
-        // arr[i].push([elem]);
     }
     alert(arr);
     console.log(arr)
 }
 let functionResult = arrAdd();
 
-
-
-
-
-
-
-
-
+arr.splice(2,3);
+alert(arr);
+console.log(arr)
 
 
 
