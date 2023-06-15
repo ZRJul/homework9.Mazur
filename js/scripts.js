@@ -13,6 +13,13 @@ function arrAdd() {
 }
 let functionResult = arrAdd();
 
+function compare (a,b) {
+    return a - b;
+}
+arr.sort(compare);
+alert(arr);
+
+
 arr.splice(2,3);
 alert(arr);
 console.log(arr)
